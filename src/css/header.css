@@ -1,0 +1,26 @@
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #747e06c2;
+    
+    font-size: 27px;
+    color: white;
+    z-index: 3;
+}
+
+#logo{
+    width: 90px;
+    margin: 5px 40px;
+    animation: logo 3s ease-in-out infinite;
+    transform-origin: center;
+}
+.logo-header{
+    display: flex;
+    align-items: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
