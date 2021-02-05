@@ -1,0 +1,30 @@
+.info{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+
+.item{  
+    font-size: 20px;
+    margin: 8px 5px;
+}
+.name{
+    font-size: 24px;
+}
+.status{
+    font-family: monospace;
+    margin-top: -8px;
+}
+

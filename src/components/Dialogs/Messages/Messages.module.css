@@ -1,0 +1,28 @@
+
+.mess{
+    padding: 20px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    height: 400px;
+    z-index: 10;
+}
+/* Scrollbar styles */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    transition-duration: 0.4s;
+    background: #a4c955; 
+}
+    
+::-webkit-scrollbar-track {
+    border: 1px solid rgb(187, 214, 132);
+    border-radius: 10px;
+}
+    
+::-webkit-scrollbar-thumb {
+    background: rgba(159, 194, 77, 0.808);  
+    border-radius: 10px;
+}
+

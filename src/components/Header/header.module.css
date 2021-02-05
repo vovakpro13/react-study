@@ -1,4 +1,4 @@
-header{
+.header{
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -10,17 +10,17 @@ header{
     z-index: 3;
 }
 
+#nog{
+    font: 35px 'Open Sans Condensed';
+}
+
 #logo{
     width: 90px;
     margin: 5px 40px;
     animation: logo 3s ease-in-out infinite;
     transform-origin: center;
 }
-.logo-header{
-    display: flex;
-    align-items: center;
-}
-.search{
+.logoheader{
     display: flex;
     align-items: center;
 }

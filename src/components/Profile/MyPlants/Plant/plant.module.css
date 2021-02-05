@@ -1,0 +1,40 @@
+.conteiner{ 
+    margin: 17px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 260px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    
+    background-color: rgba(255, 235, 205, 0.315);
+    
+}
+.image{
+    margin: 0;
+    padding: 0;
+}
+.image img{
+    
+    width: 100%;
+}
+.desc{
+    padding: 7px;
+}
+
+.butt{
+    cursor: pointer;
+    display: block;
+    padding: 9px 15px;
+    border-top: 1px solid;
+    text-align: center;
+    color: white;
+    background:rgba(73, 190, 73, 0.548);
+    text-decoration: none;
+}
+.name{
+    font-size: 21px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.603);
+    padding-bottom: 7px;
+    text-align: center;
+}

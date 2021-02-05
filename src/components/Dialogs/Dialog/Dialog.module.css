@@ -1,0 +1,52 @@
+.con{
+    display: flex;
+    flex-direction: row;
+    
+}
+.dialog{
+    border-bottom: 1px solid rgba(214, 135, 31, 0.274);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+    color: rgb(145, 39, 0);
+}
+.dialog:focus{
+    color: none;
+}
+.dialog > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.n{
+    text-decoration: none;
+    color: rgb(145, 39, 0);
+}
+
+.active{
+    background-color: rgba(122, 101, 61, 0.527);
+    color: white;
+
+    
+}
+.active>img{
+    animation: active_img 2s ease-in-out infinite;
+    width: 50px;
+    height: 50px;
+}
+  
+
+@keyframes active_img{
+    0%{
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: rotate(6deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

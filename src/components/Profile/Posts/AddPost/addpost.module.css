@@ -1,0 +1,55 @@
+.add_post_div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    border-left: 3px solid rgba(255, 166, 0, 0.829);
+    margin-bottom: 10px;
+    padding-left: 20px;
+    background-color: rgba(255, 166, 0, 0.123);
+}
+.add_title{
+    font-size: 23px;
+    font-family: 'Exo 2';
+    margin-bottom: 10px;
+}
+.div_text{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.text{
+    resize: none;
+    width: 500px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    height: 70px;
+} 
+
+
+
+
+.div_text > svg{
+    width: 70px;
+    height: 70px;
+    margin-left: 14px;
+}
+
+.div_text > svg:hover{
+    animation: add 1s ease-in-out infinite;
+}
+
+@keyframes add{
+    0%{
+        transform: rotate(-2deg) scale(1);
+    }
+    50%{
+        transform: rotate(7deg) scale(1.1);
+    }
+    65%{
+        transform: rotate(-5deg) ;
+    }
+    100%{
+        transform: rotate(0deg) scale(1);
+    }
+}

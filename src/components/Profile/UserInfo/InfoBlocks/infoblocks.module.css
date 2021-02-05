@@ -1,0 +1,8 @@
+.blocks_div{  
+    font-size: 20px;
+    margin: 8px 5px;
+}
+.min_info{
+    display: flex;
+    flex-direction: row ;
+ }

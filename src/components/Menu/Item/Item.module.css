@@ -1,0 +1,33 @@
+.active{
+    background-color: rgba(14, 17, 1, 0.507);
+    color: white;
+}
+
+.item_a{
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.164);
+    padding: 15px 0;
+    width: 100%;
+   flex-direction: row;
+   align-items: center;
+    display: flex;
+    
+}
+.item_menu > a:hover{
+    transition-duration: 1s;
+    color: white;
+    background-color: rgba(14, 17, 1, 0.507);
+}
+.menu_icon{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+}
+
+
+

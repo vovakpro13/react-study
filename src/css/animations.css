@@ -9,3 +9,15 @@
         transform: rotate(0deg);
     }
 }
+
+@keyframes like{
+    0%{
+
+    }
+    50%{
+        
+    }
+    100%{
+
+    }
+}

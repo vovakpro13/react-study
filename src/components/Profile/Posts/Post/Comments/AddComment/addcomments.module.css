@@ -1,0 +1,45 @@
+.add_comment_div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.area{
+    display: flex;
+    flex-direction: row;
+}
+.title{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.area > textarea{
+    resize: none;
+    width: 500px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+
+.area > svg{
+    width: 50px;
+    height: 50px;
+    margin-left: 14px;
+}
+
+.area > svg:hover{
+    animation: add 1s ease-in-out infinite;
+}
+
+@keyframes add{
+    0%{
+        transform: rotate(-2deg) scale(1);
+    }
+    50%{
+        transform: rotate(7deg) scale(1.1);
+    }
+    65%{
+        transform: rotate(-5deg) ;
+    }
+    100%{
+        transform: rotate(0deg) scale(1);
+    }
+}
